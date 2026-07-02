@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" role="img" aria-labelledby="title desc">
+  <title id="title">中古ゲーム機買取の3つの安心ポイント</title>
+  <desc id="desc">査定無料、箱なしOK、宅配対応を認定証風に表示した画像</desc>
+  <defs>
+    <filter id="shadow" x="-8%" y="-14%" width="116%" height="136%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#17324f" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="redGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#56a6e8"/>
+      <stop offset="1" stop-color="#0b63ce"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#59cf9a"/>
+      <stop offset="1" stop-color="#11a86b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe8a8"/>
+      <stop offset="1" stop-color="#d79b24"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(34 28)">
+      <rect width="284" height="174" rx="28" fill="#fff"/>
+      <path d="M28 0h228a28 28 0 0 1 28 28v10H0V28A28 28 0 0 1 28 0Z" fill="url(#redGrad)"/>
+      <circle cx="66" cy="93" r="34" fill="url(#goldGrad)"/>
+      <circle cx="66" cy="93" r="24" fill="#fff8df" stroke="#b77c12" stroke-width="3"/>
+      <path d="M55 95h22M58 86h17M60 104h13" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+      <path d="m51 121-12 30 22-8 7 21 12-35Z" fill="#f97316" opacity=".9"/>
+      <path d="m81 121 12 30-22-8-7 21-12-35Z" fill="#0b63ce" opacity=".84"/>
+      <text x="187" y="85" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="31" font-weight="900" fill="#151b22">査定無料</text>
+      <text x="187" y="119" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="17" font-weight="800" fill="#52606f">キャンセル料も</text>
+      <text x="187" y="144" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="17" font-weight="800" fill="#52606f">かかりません</text>
+    </g>
+
+    <g transform="translate(338 28)">
+      <rect width="284" height="174" rx="28" fill="#fff"/>
+      <path d="M28 0h228a28 28 0 0 1 28 28v10H0V28A28 28 0 0 1 28 0Z" fill="url(#blueGrad)"/>
+      <circle cx="66" cy="93" r="34" fill="url(#blueGrad)" opacity=".94"/>
+      <circle cx="66" cy="93" r="24" fill="#f4fbff" stroke="#0b63ce" stroke-width="3"/>
+      <path d="M52 99h29l7-17H45l7 17Z" fill="none" stroke="#0b63ce" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M54 109h25M58 82v-7h17v7" fill="none" stroke="#0b63ce" stroke-width="5" stroke-linecap="round"/>
+      <path d="m51 121-12 30 22-8 7 21 12-35Z" fill="#0b63ce" opacity=".9"/>
+      <path d="m81 121 12 30-22-8-7 21-12-35Z" fill="#08a4c7" opacity=".84"/>
+      <text x="192" y="85" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="31" font-weight="900" fill="#151b22">箱なしOK</text>
+      <text x="192" y="119" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="16" font-weight="800" fill="#52606f">本体のみ・ケーブル</text>
+      <text x="192" y="144" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="16" font-weight="800" fill="#52606f">不足も相談可</text>
+    </g>
+
+    <g transform="translate(642 28)">
+      <rect width="284" height="174" rx="28" fill="#fff"/>
+      <path d="M28 0h228a28 28 0 0 1 28 28v10H0V28A28 28 0 0 1 28 0Z" fill="url(#greenGrad)"/>
+      <circle cx="66" cy="93" r="34" fill="url(#greenGrad)" opacity=".94"/>
+      <circle cx="66" cy="93" r="24" fill="#f4fff8" stroke="#11a86b" stroke-width="3"/>
+      <path d="M48 98h37V84H48v14Z" fill="none" stroke="#11a86b" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M55 84v-8h23v8M54 108h25" fill="none" stroke="#11a86b" stroke-width="5" stroke-linecap="round"/>
+      <path d="m51 121-12 30 22-8 7 21 12-35Z" fill="#11a86b" opacity=".9"/>
+      <path d="m81 121 12 30-22-8-7 21-12-35Z" fill="#d79b24" opacity=".86"/>
+      <text x="192" y="85" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="31" font-weight="900" fill="#151b22">宅配対応</text>
+      <text x="192" y="119" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="16" font-weight="800" fill="#52606f">送料・手数料無料で</text>
+      <text x="192" y="144" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Meiryo, sans-serif" font-size="16" font-weight="800" fill="#52606f">送れます</text>
+    </g>
+  </g>
+</svg>
