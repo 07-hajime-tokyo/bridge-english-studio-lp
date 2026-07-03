@@ -124,7 +124,7 @@ p {
 
 .hero {
   position: relative;
-  min-height: 720px;
+  min-height: 740px;
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(248, 219, 227, 0.36), transparent 34%),
@@ -145,11 +145,11 @@ p {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(86px, 150px) minmax(420px, 660px) minmax(250px, 340px);
+  grid-template-columns: minmax(86px, 140px) minmax(560px, 720px) minmax(250px, 320px);
   align-items: center;
   gap: clamp(18px, 3.8vw, 46px);
-  width: min(1120px, calc(100% - 32px));
-  min-height: 720px;
+  width: min(1180px, calc(100% - 32px));
+  min-height: 740px;
   margin: 0 auto;
   padding: 54px 0 56px;
 }
@@ -188,10 +188,10 @@ p {
 }
 
 .hero-photo img {
-  height: min(590px, 72vh);
-  min-height: 500px;
+  height: min(620px, 74vh);
+  min-height: 520px;
   object-fit: cover;
-  object-position: 64% center;
+  object-position: 68% center;
 }
 
 .hero-panel {
@@ -797,6 +797,7 @@ summary:focus-visible {
   .hero-photo img {
     height: min(520px, 62vh);
     min-height: 430px;
+    object-position: 68% center;
   }
 
   .hero-panel {
@@ -851,16 +852,19 @@ summary:focus-visible {
   }
 
   .hero-inner {
-    grid-template-columns: 58px minmax(0, 1fr);
-    gap: 12px;
-    min-height: auto;
-    padding-top: 30px;
-    padding-bottom: 34px;
+    display: block;
+    width: 100%;
+    min-height: 690px;
+    padding: 22px 16px 28px;
   }
 
   .hero-copy {
-    align-self: start;
-    padding-top: 12px;
+    position: absolute;
+    top: 42px;
+    left: 24px;
+    z-index: 3;
+    align-self: auto;
+    padding: 0;
   }
 
   .hero-copy .eyebrow {
@@ -868,31 +872,50 @@ summary:focus-visible {
   }
 
   .hero-photo img {
-    height: 370px;
-    min-height: 370px;
-    object-position: 63% center;
+    height: 640px;
+    min-height: 640px;
+    object-position: 69% center;
   }
 
   h1 {
-    max-height: 358px;
-    font-size: 31px;
+    max-height: 410px;
+    color: #2f262b;
+    font-size: 30px;
+    text-shadow: 0 2px 22px rgba(255, 250, 245, 0.88);
   }
 
   .hero-panel {
-    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    z-index: 3;
+    width: auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: var(--radius);
+    background: rgba(255, 250, 245, 0.84);
+    box-shadow: 0 18px 46px rgba(96, 54, 66, 0.16);
+    backdrop-filter: blur(14px);
   }
 
   .hero-lead {
     font-size: 15px;
+    max-width: none;
   }
 
   .hero-actions {
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 14px;
   }
 
   .button {
     width: 100%;
+  }
+
+  .hero-notes {
+    margin-top: 12px;
   }
 
   .section {
