@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="大人女性向けの少人数制フラワーレッスンLPサンプル。体験レッスン、季節のブーケ、暮らしのアレンジを予約できます。">
+    <title>miette fleur | 大人の花教室</title>
+    <link rel="preload" as="image" href="assets/flower-hero.png">
+    <link rel="stylesheet" href="flower-class.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="miette fleur トップへ">
+        <span class="brand-mark">mf</span>
+        <span>miette fleur</span>
+      </a>
+      <nav class="header-nav" aria-label="主要メニュー">
+        <a href="#concept">教室について</a>
+        <a href="#lessons">レッスン</a>
+        <a href="#price">料金</a>
+        <a href="#reserve">予約</a>
+      </nav>
+      <a class="header-cta" href="#reserve">体験予約</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="ファーストビュー">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="eyebrow">flower lesson in small studio</p>
+          <h1>花のある時間を、<br>わたしらしく。</h1>
+          <p class="hero-lead">季節の花を選び、束ねて、暮らしに持ち帰る。初心者でも通いやすい、大人のための小さな花教室です。</p>
+          <div class="hero-actions" aria-label="申し込み導線">
+            <a class="button primary" href="#reserve">体験レッスンを予約</a>
+            <a class="button secondary" href="#lessons">レッスンを見る</a>
+          </div>
+          <div class="hero-notes" aria-label="教室の特徴">
+            <span>少人数制</span>
+            <span>手ぶらOK</span>
+            <span>平日夜・週末</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="concept" aria-labelledby="concept-title">
+        <div class="intro-copy">
+          <p class="label">Concept</p>
+          <h2 id="concept-title">上手に作るより、花と過ごす時間を好きになる。</h2>
+          <p>miette fleurは、仕事帰りや週末にふらっと通える少人数制の花教室です。花材選びから色合わせ、持ち帰ったあとの飾り方まで、暮らしの中で楽しめる形でお伝えします。</p>
+        </div>
+        <div class="intro-image">
+          <img src="assets/flower-hands.png" alt="ピンクの花を束ねるフラワーレッスンの手元" loading="lazy">
+        </div>
+      </section>
+
+      <section class="section point-section" aria-labelledby="points-title">
+        <div class="section-head compact">
+          <p class="label">Why this studio</p>
+          <h2 id="points-title">通いやすさも、仕上がりのかわいさも。</h2>
+        </div>
+        <div class="point-grid">
+          <article class="point-card">
+            <span class="point-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M24 39c8-7 12-14 12-21a12 12 0 0 0-24 0c0 7 4 14 12 21Z"></path><path d="M18 20c3 2 9 2 12-2"></path></svg>
+            </span>
+            <h3>季節の花材</h3>
+            <p>市場で選んだ花を中心に、色合わせや香りまで楽しめる内容にしています。</p>
+          </article>
+          <article class="point-card">
+            <span class="point-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M16 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"></path><path d="M32 24a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path><path d="M7 40c2-8 5-12 11-12s9 4 11 12"></path><path d="M25 38c2-6 5-9 10-9 4 0 7 3 9 9"></path></svg>
+            </span>
+            <h3>3〜6名の少人数</h3>
+            <p>初めてでも質問しやすく、ひとり参加でも落ち着いて過ごせます。</p>
+          </article>
+          <article class="point-card">
+            <span class="point-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M13 13h22v26H13z"></path><path d="M18 19h12M18 25h12M18 31h7"></path><path d="M35 18l5-5"></path></svg>
+            </span>
+            <h3>そのまま飾れる</h3>
+            <p>自宅での水替えや置き場所も案内。翌日からの暮らしに馴染みます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section lessons" id="lessons" aria-labelledby="lessons-title">
+        <div class="section-head">
+          <p class="label">Lessons</p>
+          <h2 id="lessons-title">気分に合わせて選べるレッスン</h2>
+          <p>まずは1回だけの体験から。慣れてきたら、季節ごとのブーケや暮らしのアレンジへ。</p>
+        </div>
+        <div class="lesson-switcher" data-lesson-switcher>
+          <div class="lesson-tabs" role="tablist" aria-label="レッスンを選択">
+            <button class="lesson-tab is-active" id="tab-trial" type="button" role="tab" aria-selected="true" aria-controls="panel-trial" data-lesson-tab="trial">
+              <span>01</span> 体験レッスン
+            </button>
+            <button class="lesson-tab" id="tab-bouquet" type="button" role="tab" aria-selected="false" aria-controls="panel-bouquet" data-lesson-tab="bouquet">
+              <span>02</span> 季節のブーケ
+            </button>
+            <button class="lesson-tab" id="tab-home" type="button" role="tab" aria-selected="false" aria-controls="panel-home" data-lesson-tab="home">
+              <span>03</span> 暮らしのアレンジ
+            </button>
+          </div>
+          <div class="lesson-panels">
+            <article class="lesson-panel is-active" id="panel-trial" role="tabpanel" aria-labelledby="tab-trial" data-lesson-panel="trial">
+              <img src="assets/flower-lesson.png" alt="少人数の花教室で講師がアレンジを教えている様子" loading="lazy">
+              <div class="lesson-detail">
+                <p class="lesson-kicker">はじめての方向け / 90分</p>
+                <h3>体験レッスン</h3>
+                <p>花ばさみの使い方、色の合わせ方、束ね方の基本を体験できます。必要な道具はすべて教室で用意しています。</p>
+                <ul>
+                  <li>手ぶらで参加できます</li>
+                  <li>完成したブーケは持ち帰り</li>
+                  <li>LINEで日程相談OK</li>
+                </ul>
+              </div>
+            </article>
+            <article class="lesson-panel" id="panel-bouquet" role="tabpanel" aria-labelledby="tab-bouquet" data-lesson-panel="bouquet" hidden>
+              <img src="assets/flower-hands.png" alt="季節の花を使ったブーケ制作の手元" loading="lazy">
+              <div class="lesson-detail">
+                <p class="lesson-kicker">月1回 / 120分</p>
+                <h3>季節のブーケ</h3>
+                <p>その時期にきれいな花を使い、ふわっと自然に見えるブーケを作ります。写真に残したくなる色合わせを大切にします。</p>
+                <ul>
+                  <li>花材の選び方も学べます</li>
+                  <li>ラッピングまで仕上げます</li>
+                  <li>初心者から継続しやすい内容</li>
+                </ul>
+              </div>
+            </article>
+            <article class="lesson-panel" id="panel-home" role="tabpanel" aria-labelledby="tab-home" data-lesson-panel="home" hidden>
+              <img src="assets/flower-gallery.png" alt="部屋に飾りやすい季節のフラワーアレンジ作品" loading="lazy">
+              <div class="lesson-detail">
+                <p class="lesson-kicker">暮らしに飾る / 100分</p>
+                <h3>暮らしのアレンジ</h3>
+                <p>小さな花器やテーブルに飾れるアレンジを作ります。家で再現しやすいサイズ感と、長く楽しむコツを学べます。</p>
+                <ul>
+                  <li>花器つき回もあります</li>
+                  <li>季節行事に合わせた内容</li>
+                  <li>プレゼント制作にもおすすめ</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section flow" aria-labelledby="flow-title">
+        <div class="section-head compact">
+          <p class="label">How to start</p>
+          <h2 id="flow-title">予約から持ち帰りまで</h2>
+        </div>
+        <div class="flow-row">
+          <article>
+            <span>01</span>
+            <h3>日程を選ぶ</h3>
+            <p>フォームまたはLINEで、体験したい日程をお知らせください。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>手ぶらで参加</h3>
+            <p>花ばさみ、花器、ラッピング資材はこちらで用意しています。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>花を持ち帰る</h3>
+            <p>飾り方のメモと一緒に、完成作品をそのままお持ち帰り。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section price" id="price" aria-labelledby="price-title">
+        <div class="section-head">
+          <p class="label">Price</p>
+          <h2 id="price-title">料金</h2>
+          <p>入会前に雰囲気を試せる体験レッスンをご用意しています。花材費込みのわかりやすい料金です。</p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card">
+            <p class="plan-name">体験レッスン</p>
+            <p class="plan-price">4,400円</p>
+            <p>花材・道具レンタル込み。まずは1回だけ参加できます。</p>
+          </article>
+          <article class="price-card featured">
+            <p class="plan-name">月1ブーケクラス</p>
+            <p class="plan-price">7,700円</p>
+            <p>季節の花材費込み。毎月の気分転換にちょうどいいクラスです。</p>
+          </article>
+          <article class="price-card">
+            <p class="plan-name">プライベート</p>
+            <p class="plan-price">13,200円〜</p>
+            <p>友人同士、撮影用、ギフト制作など個別に相談できます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section voices" aria-labelledby="voices-title">
+        <div class="voice-image">
+          <img src="assets/flower-gallery.png" alt="完成したピンク系のフラワーアレンジ作品" loading="lazy">
+        </div>
+        <div class="voice-copy">
+          <p class="label">Voice</p>
+          <h2 id="voices-title">通っている方の声</h2>
+          <blockquote>花を触っている間だけ、仕事のことを忘れられます。自分で作った花を家に飾ると、部屋の空気まで変わる感じがします。</blockquote>
+          <p class="voice-name">30代 会社員 / 月1ブーケクラス</p>
+        </div>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="section-head compact">
+          <p class="label">FAQ</p>
+          <h2 id="faq-title">よくある質問</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>初心者でも参加できますか？</summary>
+            <p>はい。花ばさみの持ち方から説明します。ほとんどの方が未経験から参加されています。</p>
+          </details>
+          <details>
+            <summary>持ち物はありますか？</summary>
+            <p>手ぶらで大丈夫です。持ち帰り用の袋だけあると安心です。</p>
+          </details>
+          <details>
+            <summary>ひとり参加でも浮きませんか？</summary>
+            <p>おひとり参加の方が多い教室です。少人数なので静かに作りたい方にも向いています。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section reserve" id="reserve" aria-labelledby="reserve-title">
+        <div class="reserve-copy">
+          <p class="label">Trial lesson</p>
+          <h2 id="reserve-title">体験レッスンを予約する</h2>
+          <p>希望日と気になるレッスンを送ってください。空き状況を確認して、折り返しご連絡します。</p>
+          <div class="line-box">
+            <strong>LINE相談</strong>
+            <span>日程や雰囲気を先に聞きたい方は、LINEで気軽に相談できます。</span>
+          </div>
+        </div>
+        <form class="reserve-form" data-flower-form>
+          <label>
+            お名前
+            <input type="text" name="name" autocomplete="name" placeholder="山田 花子" required>
+          </label>
+          <label>
+            メールアドレス
+            <input type="email" name="email" autocomplete="email" placeholder="sample@example.com" required>
+          </label>
+          <label>
+            希望レッスン
+            <select name="lesson" required>
+              <option value="">選択してください</option>
+              <option>体験レッスン</option>
+              <option>季節のブーケ</option>
+              <option>暮らしのアレンジ</option>
+              <option>プライベート相談</option>
+            </select>
+          </label>
+          <label>
+            希望曜日
+            <select name="day" required>
+              <option value="">選択してください</option>
+              <option>平日昼</option>
+              <option>平日夜</option>
+              <option>土日</option>
+              <option>相談したい</option>
+            </select>
+          </label>
+          <label class="full">
+            メッセージ
+            <textarea name="message" rows="4" placeholder="例: 体験レッスン希望です。土日の空き日程を知りたいです。"></textarea>
+          </label>
+          <button class="button primary full" type="submit">予約内容を送る</button>
+          <p class="form-note" role="status" data-flower-status>入力内容はデモ送信です。実運用時はフォーム送信先を接続してください。</p>
+        </form>
+      </section>
+    </main>
+
+    <div class="mobile-cta" aria-label="スマートフォン固定CTA">
+      <a href="#reserve">体験予約</a>
+      <a href="#lessons">レッスン</a>
+      <a href="#reserve">LINE相談</a>
+    </div>
+
+    <script src="flower-class.js"></script>
+  </body>
+</html>
